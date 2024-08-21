@@ -1,3 +1,6 @@
+-- placed here instead of set.lua to avoid race condition
+-- ensures that leader is set for remaps
+vim.g.mapleader = " " 
 vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
