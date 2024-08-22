@@ -2,7 +2,6 @@ return {
     "folke/tokyonight.nvim",
     lazy = false,
     priority = 1000,
-    opts = {},
     -- this function used to be in after and called Color 
     -- I think that made it callable but I don't see a reason for this
     config = function()
