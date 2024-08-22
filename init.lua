@@ -1,3 +1,3 @@
-require("yelley.remap") 
-require("yelley.set") 
+require("yelley.remap")
+require("yelley.set")
 require("yelley.lazy")
